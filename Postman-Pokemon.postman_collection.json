@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "f5f6a328-070c-42fe-9f4d-d911e08db408",
+		"name": "Postman-Pokemon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49959244",
+		"_collection_link": "https://lannaces-7162060.postman.co/workspace/Lanna-Correia's-Workspace~cd22ab17-0e26-4833-8571-0b9c36209c02/collection/49959244-f5f6a328-070c-42fe-9f4d-d911e08db408?action=share&source=collection_link&creator=49959244"
+	},
+	"item": [
+		{
+			"name": "successfully localizes pokemon",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "does not localize pokemon",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "failling localize pokemon endpoint",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
