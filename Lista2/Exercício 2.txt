@@ -1,0 +1,19 @@
+Exercício 2:
+
+1. Quantas suítes de testes você desenvolveu?
+   Eu desenvolvi uma suíte de teste, com 7 cenários distintos.
+
+2. Os testes desenvolvidos são manuais ou automatizados?
+   Os testes desenvolvidos são automatizados. 
+
+3. Onde os testes se localizam na pirâmide apresentada?
+   Os testes em questão estão no nível de serviço, intermediário, da pirâmide de testes. Eles validam as respostas da API sem envolver verificação de UI ou a lógica interna da mesma.
+
+4. Os testes desenvolvidos são funcionais ou não-funcionais?
+   Os testes são funcionais, pois validam o comportamento esperado da Dog API, e não fatores como desempenho, segurança ou carga (de caráter não-funcional).
+
+5. Alguns dos testes desenvolvidos são testes Fim-a-Fim (End-to-End)?
+   Não, nenhum dos testes são fim-a-fim, já que não englobam o fluxo completo de funcionamento da API em questão.
+
+6. O que se deve fazer para que os testes desenvolvidos funcionem em modo regressão?
+   Para que estes testes funcionem em modo de regressão, é necessário que os mesmos sejam engatilhados e performados a cada atualização da aplicação. Assim é possível analisar o progresso da aplicação em relação ao seu funcionamento anterior. Isso pode ser feito associando o Postman/Newman a um pipeline de CI/CD automatizado, como Jenkins ou GitHub Actions.
